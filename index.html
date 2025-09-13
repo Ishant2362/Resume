@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ishant Pathania - Resume</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #0073e6, #28a745);
+      color: #333;
+    }
+
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 50px 40px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      max-width: 520px;
+      width: 90%;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #0073e6;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .tagline {
+      font-size: 16px;
+      font-weight: 500;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 18px;
+      color: #0073e6;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    a.btn {
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .view { background: #0073e6; color: white; }
+    .view:hover { background: #005bb5; transform: scale(1.05); }
+
+    .download { background: #28a745; color: white; }
+    .download:hover { background: #1e7e34; transform: scale(1.05); }
+
+    .contact { background: #ff9800; color: white; }
+    .contact:hover { background: #e68900; transform: scale(1.05); }
+
+    .linkedin { background: #0077b5; color: white; }
+    .linkedin:hover { background: #005582; transform: scale(1.05); }
+
+    .github { background: #333; color: white; }
+    .github:hover { background: #000; transform: scale(1.05); }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="profile.jpg" alt="Ishant Pathania" class="profile-img">
+    <h1>Ishant Pathania</h1>
+    <div class="tagline">Aspiring Data Analyst | SQL Enthusiast | MCA Student</div>
+
+    <p>Always up-to-date resume available below 👇</p>
+
+    <!-- Resume Section -->
+    <h2><i class="fas fa-file-alt"></i> Resume</h2>
+    <div class="buttons">
+      <a href="resume.pdf" target="_blank" class="btn view">
+        <i class="fas fa-eye"></i> View Online
+      </a>
+      <a href="resume.pdf" download="Ishant_Pathania_Resume.pdf" class="btn download">
+        <i class="fas fa-download"></i> Download
+      </a>
+    </div>
+
+    <!-- Connect Section -->
+    <h2><i class="fas fa-handshake"></i> Connect with Me</h2>
+    <div class="buttons">
+      <a href="https://www.linkedin.com/in/ishant-pathania-98a795274" target="_blank" class="btn linkedin">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/Ishant2362" target="_blank" class="btn github">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="mailto:lpsishant4662.com" class="btn contact">
+        <i class="fas fa-envelope"></i> Contact Me
+      </a>
+    </div>
+
+    <footer>
+      📌 Last updated: September 2025
+    </footer>
+  </div>
+</body>
+</html>
